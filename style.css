@@ -62,13 +62,13 @@ table {
     height: 100vh;
     position: relative;
     margin: auto;
-    background: #222;
+    background: rgb(0, 0, 0);
     overflow: hidden;
 }
 .line{ 
     position: absolute;
     width: 10px;
     height: 50px;
-    background: #fff;
+    background: rgb(228, 228, 45);
     left: 145px;
 }
