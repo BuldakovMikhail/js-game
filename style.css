@@ -92,7 +92,7 @@ table {
     background: rgb(180, 152, 80);
 }
 
-.score{
+.score, .maxScore{
     position: absolute;
     top: 0;
     left: 0;
@@ -104,4 +104,32 @@ table {
     font-family: sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
+}
+.maxScore{
+    top: 80px;
+}
+.controls{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    z-index: 200;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: goldenrod;
+}
+.lev, .mus{
+    margin: 10px 10px;
+}
+.active{
+    background: greenyellow;
+}
+.controls ul{
+    margin: 20px 0;
+}
+.downS:hover, .upS:hover, .downT:hover, .upT:hover, .mus:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.downS, .upS, .downT, .upT, .speed, .traffic{
+    font-size: 30px;
 }
